@@ -45,7 +45,7 @@
 - name: Register runner to GitLab
   command: >
     {{ command }}
-    --registration-token 'SEU TOKEN VAI AQUI'
+    --registration-token 'glrt-xFBZrgMrwDBywLh219wJI286MQpwOjE5c2Y5cAp0OjMKdToyeHJxYRg.01.1j0u4g6t5'
     {% if gitlab_runner.cache_s3_secret_key is defined %}
     --cache-s3-secret-key '{{ gitlab_runner.cache_s3_secret_key }}'
     {% endif %}
